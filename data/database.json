@@ -1,0 +1,62 @@
+{
+  "team": "Firezone Team",
+  "tagline": "Built to compete. Born to dominate.",
+  "socials": {
+    "telegram": "https://t.me/Firezone_Team"
+  },
+  "settings": {
+    "siteBackground": "",
+    "heroSubtitle": "Competitive esports organization",
+    "leaderCode": "FIREZONE-LEADER-2026"
+  },
+  "players": [
+    {
+      "name": "SHADOW",
+      "role": "IGL",
+      "kd": "1.45",
+      "time": "1 year",
+      "history": "Captain and tactical core of the roster.",
+      "avatar": ""
+    },
+    {
+      "name": "NIGHT",
+      "role": "SNIPER",
+      "kd": "1.60",
+      "time": "8 months",
+      "history": "Long-range specialist with strong clutch potential.",
+      "avatar": ""
+    },
+    {
+      "name": "BLAZE",
+      "role": "RIFLER",
+      "kd": "1.32",
+      "time": "10 months",
+      "history": "Aggressive entry player focused on tempo.",
+      "avatar": ""
+    }
+  ],
+  "matches": [
+    {
+      "enemy": "ENEMY TEAM",
+      "score": "2 : 1",
+      "result": "VICTORY",
+      "event": "Practice Series"
+    },
+    {
+      "enemy": "DARK UNIT",
+      "score": "2 : 0",
+      "result": "VICTORY",
+      "event": "Cup Match"
+    }
+  ],
+  "news": [
+    {
+      "title": "Roster Update",
+      "text": "Firezone Team continues to build a stronger and more disciplined lineup."
+    },
+    {
+      "title": "Tournament Preparation",
+      "text": "The team is actively preparing for upcoming matches and scrims."
+    }
+  ]
+}
