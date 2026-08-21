@@ -1,0 +1,124 @@
+
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <title>Firezone Team</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="ambient ambient-a"></div>
+  <div class="ambient ambient-b"></div>
+  <div class="dust-layer dust-1"></div>
+  <div class="dust-layer dust-2"></div>
+  <div class="eye-glow eye-left"></div>
+  <div class="eye-glow eye-right"></div>
+
+  <div class="bg-logo bg-logo-a"></div>
+  <div class="bg-logo bg-logo-b"></div>
+
+  <div class="overlay" id="overlay"></div>
+
+  <header class="topbar">
+    <button class="burger" id="burgerBtn" aria-label="menu">
+      <span></span><span></span><span></span>
+    </button>
+    <div class="brand-wrap">
+      <img src="assets/logo.jpg" alt="Firezone logo" class="brand-logo" id="secretLogo">
+      <div class="brand-text">
+        <div class="brand-name">FIREZONE TEAM</div>
+        <div class="brand-sub">Official Organization</div>
+      </div>
+    </div>
+    <a class="top-link" href="https://t.me/Firezone_Team" target="_blank" rel="noopener">Telegram</a>
+  </header>
+
+  <aside class="side-menu" id="sideMenu">
+    <div class="menu-head">FIREZONE NAVIGATION</div>
+    <a href="#hero" class="nav-link">Главная</a>
+    <a href="#about" class="nav-link">О команде</a>
+    <a href="#roster" class="nav-link">Состав</a>
+    <a href="#matches" class="nav-link">Матчи</a>
+    <a href="#news" class="nav-link">Новости</a>
+    <a href="#socials" class="nav-link">Соцсети</a>
+  </aside>
+
+  <main>
+    <section class="hero section" id="hero">
+      <div class="hero-grid">
+        <div class="hero-copy panel highlighted">
+          <div class="tiny-label">FIREZONE TEAM</div>
+          <h1>FIREZONE</h1>
+          <h2>BUILT TO COMPETE</h2>
+          <p id="heroSubtitle">Добро пожаловать!</p>
+          <div class="hero-actions">
+            <a href="#roster" class="action-btn action-primary">Смотреть состав</a>
+            <a href="https://t.me/Firezone_Team" target="_blank" rel="noopener" class="action-btn action-secondary">Перейти в Telegram</a>
+          </div>
+        </div>
+        <div class="hero-emblem panel">
+          <div class="hero-logo-shell">
+            <img src="assets/logo.jpg" alt="Firezone logo">
+          </div>
+          <div class="hero-note"></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section panel" id="about">
+      <div class="section-title-wrap">
+        <div class="section-kicker">ABOUT</div>
+        <h3>О команде</h3>
+      </div>
+      <div class="about-grid">
+        <div class="about-text">
+          <p>Firezone Team — киберспортивная команда, построенная вокруг дисциплины, развития состава и сильной командной игры. Стиль команды — агрессивный, красно-чёрный, узнаваемый и атмосферный.</p>
+          <p>Организация развивается через праки, турниры и постоянное улучшение каждого игрока. Основная цель — собрать сильное медиа-лицо и уверенно выступать на сцене.</p>
+        </div>
+        <div class="stat-grid">
+          <div class="stat-card"><span>0</span><small>Core Players</small></div>
+          <div class="stat-card"><span>0</span><small>Latest Wins</small></div>
+          <div class="stat-card"><span>0</span><small>Identity</small></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section panel" id="roster">
+      <div class="section-title-wrap">
+        <div class="section-kicker">ROSTER</div>
+        <h3>Состав</h3>
+      </div>
+      <div id="playersGrid" class="cards-grid"></div>
+    </section>
+
+    <section class="section panel" id="matches">
+      <div class="section-title-wrap">
+        <div class="section-kicker">MATCHES</div>
+        <h3>Последние игры</h3>
+      </div>
+      <div id="matchesGrid" class="cards-grid matches-grid"></div>
+    </section>
+
+    <section class="section panel" id="news">
+      <div class="section-title-wrap">
+        <div class="section-kicker">NEWS</div>
+        <h3>Новости</h3>
+      </div>
+      <div id="newsGrid" class="cards-grid"></div>
+    </section>
+
+    <section class="section panel socials-panel" id="socials">
+      <div class="section-title-wrap">
+        <div class="section-kicker">SOCIALS</div>
+        <h3>Соцсети</h3>
+      </div>
+      <div class="socials-row">
+        <a class="social-btn" href="https://t.me/Firezone_Team" target="_blank" rel="noopener">Telegram Channel</a>
+      </div>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>

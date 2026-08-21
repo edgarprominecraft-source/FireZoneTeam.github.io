@@ -1,0 +1,56 @@
+{
+  "team": "Firezone Team",
+  "tagline": "Built to compete. Born to dominate.",
+  "socials": {
+    "telegram": "https://t.me/Firezone_Team"
+  },
+  "settings": {
+    "siteBackground": "",
+    "heroSubtitle": "Competitive esports organization",
+    "leaderCode": "FIREZONE-LEADER-2026"
+  },
+  "players": [
+    {
+      "name": "ComFort",
+      "role": "",
+      "kd": "",
+      "time": "",
+      "history": "",
+      "avatar": ""
+    },
+    {
+      "name": "Xyron",
+      "role": "",
+      "kd": "",
+      "time": "",
+      "history": "",
+      "avatar": ""
+    },
+    {
+      "name": "lipistok",
+      "role": "",
+      "kd": "",
+      "time": "",
+      "history": "",
+      "avatar": ""
+    },
+    {
+      "name": "Vondi",
+      "role": "",
+      "kd": "",
+      "time": "",
+      "history": "",
+      "avatar": ""
+    },
+    {
+      "name": "Kryven",
+      "role": "",
+      "kd": "",
+      "time": "",
+      "history": "",
+      "avatar": ""
+    }
+  ],
+  "matches": [],
+  "news": []
+}
