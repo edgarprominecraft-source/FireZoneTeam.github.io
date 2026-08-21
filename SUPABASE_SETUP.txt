@@ -1,0 +1,10 @@
+
+1. Открой Supabase SQL Editor.
+2. Выполни schema.sql.
+3. В supabase/config.js вставь anon public key.
+4. Загрузи сайт на GitHub Pages.
+
+После этого:
+- аккаунты хранятся в БД
+- вход работает с разных устройств
+- можно подключить роли OWNER/ADMIN
