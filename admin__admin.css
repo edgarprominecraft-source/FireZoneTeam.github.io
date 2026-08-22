@@ -1,0 +1,7 @@
+
+body{background:#050505;color:white;font-family:Arial;padding:20px}
+.panel{max-width:700px;margin:auto;background:#111;padding:30px;border:1px solid red;border-radius:25px;box-shadow:0 0 30px red}
+input,textarea,button{width:100%;padding:14px;margin:8px 0;border-radius:12px}
+input,textarea{background:#080808;color:white;border:1px solid #700}
+button{background:#a00000;color:white;border:1px solid red}
+.card{padding:15px;margin:10px 0;background:#080808;border:1px solid #700;border-radius:15px}

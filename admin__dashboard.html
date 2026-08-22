@@ -1,0 +1,30 @@
+
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Firezone Control</title>
+<link rel="stylesheet" href="admin.css">
+</head>
+<body>
+<div class="panel">
+<h1>FIREZONE CONTROL</h1>
+
+<h2>Игроки</h2>
+<input id="playerName" placeholder="Ник">
+<input id="playerRole" placeholder="Роль">
+<input id="playerKd" placeholder="K/D">
+<input id="playerDesc" placeholder="Описание">
+<button onclick="addPlayer()">Добавить игрока</button>
+
+<div id="players"></div>
+
+<h2>Новости</h2>
+<input id="newsTitle" placeholder="Заголовок">
+<textarea id="newsBody" placeholder="Текст"></textarea>
+<button onclick="addNews()">Создать новость</button>
+
+</div>
+<script type="module" src="admin.js"></script>
+</body>
+</html>

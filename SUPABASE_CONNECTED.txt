@@ -1,0 +1,11 @@
+
+Подключено:
+- Supabase client
+- profiles
+- players
+- news
+
+OWNER:
+Pastic
+
+Перед публикацией включить RLS в Supabase и создать политики.

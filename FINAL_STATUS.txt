@@ -1,0 +1,17 @@
+
+Firezone PRO COMPLETE
+
+Добавлено:
+- Supabase RLS подготовка
+- структура OWNER/ADMIN
+- админ-панель
+- игроки
+- новости
+- матчи
+
+OWNER: Pastic
+
+Перед публикацией:
+1. Выполнить rls.sql в Supabase
+2. Проверить политики
+3. Загрузить на GitHub Pages
