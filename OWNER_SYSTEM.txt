@@ -1,0 +1,20 @@
+Firezone Owner System
+
+OWNER:
+Pastic
+
+Permissions:
+- manage players
+- delete players
+- edit K/D
+- create/delete news
+- give ADMIN permissions
+
+ADMIN:
+- manage approved content
+
+USER:
+- view only
+
+Next connection:
+Supabase Auth + RLS.
